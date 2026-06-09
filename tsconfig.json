@@ -1,20 +1,10 @@
 {
-  "compilerOptions": {
-    "declaration": true,
-    "declarationMap": true,
-    "exactOptionalPropertyTypes": true,
-    "lib": ["ES2022"],
-    "module": "NodeNext",
-    "moduleResolution": "NodeNext",
-    "noFallthroughCasesInSwitch": true,
-    "noImplicitOverride": true,
-    "noPropertyAccessFromIndexSignature": true,
-    "noUncheckedIndexedAccess": true,
-    "outDir": "dist",
-    "rootDir": "src",
-    "strict": true,
-    "target": "ES2022",
-    "useUnknownInCatchVariables": true
-  },
-  "include": ["src/**/*.ts"]
+  "extends": "@dnbhq/tsconfig/cli",
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
 }
