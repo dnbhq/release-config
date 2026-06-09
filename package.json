@@ -1,0 +1,45 @@
+{
+  "name": "@dnbhq/release-config",
+  "description": "Reusable release-it configuration for @davidsneighbour's projects.",
+  "version": "0.1.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dnbhq/release-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dnbhq/release-config/issues"
+  },
+  "homepage": "https://github.com/dnbhq/release-config#readme",
+  "devDependencies": {
+    "@release-it/conventional-changelog": "11.0.1",
+    "@types/node": "25.9.2",
+    "release-it": "20.2.0",
+    "typescript": "6.0.3"
+  },
+  "peerDependencies": {
+    "@release-it/conventional-changelog": "^10.0.0",
+    "release-it": "^19.0.0"
+  },
+  "scripts": {
+    "build": "tsc --project tsconfig.json",
+    "test": "npm run build"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=25.0.0"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "sideEffects": false,
+  "type": "module",
+  "types": "./dist/index.d.ts"
+}
