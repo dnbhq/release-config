@@ -114,9 +114,12 @@ export function createReleaseConfig(options: ReleaseConfigOptions = {}): Config 
   const githubTokenRef = options.githubTokenRef ?? "GITHUB_TOKEN_CONTENT_PRIVATE";
 
   const baseConfig: Config = {
+    "$schema": "https://unpkg.com/release-it@20/schema/release-it.json",
+    quiet: true, // don't print changelog
     npm: {
       publish: false
     },
+    // https://github.com/release-it/release-it/blob/main/docs/git.md
     git: {
       requireCleanWorkingDir: true,
       commit: true,
@@ -127,6 +130,7 @@ export function createReleaseConfig(options: ReleaseConfigOptions = {}): Config 
       push: true,
       pushArgs: ["--follow-tags"]
     },
+    // https://github.com/release-it/release-it/blob/main/docs/github-releases.md
     github: {
       release: true,
       releaseName: "v${version}",
