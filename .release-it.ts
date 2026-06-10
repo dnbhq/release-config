@@ -2,9 +2,7 @@ import { createReleaseConfig } from "@dnbhq/release-config";
 import type { Config } from "release-it";
 
 const config: Config = createReleaseConfig({
-  scopes: {
-    patchTypes: ["fix", "docs", "ci", "chore"]
-  }
+  githubTokenRef: "GITHUB_DNBHQ_TOKEN_ADMIN_PRIVATE"
 });
 
 export default config;
