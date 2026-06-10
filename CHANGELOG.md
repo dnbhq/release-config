@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.2.1](https://github.com/dnbhq/release-config/compare/v0.2.0...v0.2.1) (2026-06-10)
+
+### Build
+
+* add release process ([e7ea42a](https://github.com/dnbhq/release-config/commit/e7ea42aad8a8be85f0a3368e266f5b25dc83cb40))
+
 ## 0.2.0 (2026-06-10)
 
 ### Feat
