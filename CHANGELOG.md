@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.0.0](https://github.com/dnbhq/release-config/compare/v0.2.1...v1.0.0) (2026-06-10)
+
+### Fix
+
+* add comments and silence changes ([a134b31](https://github.com/dnbhq/release-config/commit/a134b31e2e328ebe10f264cdb3b6924e32aa2396))
+
 ## [0.2.1](https://github.com/dnbhq/release-config/compare/v0.2.0...v0.2.1) (2026-06-10)
 
 ### Build
