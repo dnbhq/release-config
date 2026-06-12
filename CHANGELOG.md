@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.0.1](https://github.com/dnbhq/release-config/compare/v1.0.0...v1.0.1) (2026-06-12)
+
+### Fix
+
+* ensure dist is built and included in published npm package ([5780e67](https://github.com/dnbhq/release-config/commit/5780e67b52f77ffbeb7d1fa4a624a561b457a961))
+
 ## [1.0.0](https://github.com/dnbhq/release-config/compare/v0.2.1...v1.0.0) (2026-06-10)
 
 ### Fix
