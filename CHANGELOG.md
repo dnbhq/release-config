@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.0.2](https://github.com/dnbhq/release-config/compare/v1.0.1...v1.0.2) (2026-06-13)
+
+### Fix
+
+* override noEmit so tsc actually emits dist/ on publish ([335506b](https://github.com/dnbhq/release-config/commit/335506b13e415f30ef124c959586d99cbbfa560a))
+
 ## [1.0.1](https://github.com/dnbhq/release-config/compare/v1.0.0...v1.0.1) (2026-06-12)
 
 ### Fix
